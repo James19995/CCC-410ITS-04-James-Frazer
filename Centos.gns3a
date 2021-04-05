@@ -1,0 +1,43 @@
+{
+    "name": "Windows Server 2019",
+    "category": "guest",
+    "description": "Microsoft Server VM",
+	"vendor_name": "Microsoft",
+    "vendor_url": "http://www.microsoft.com/",
+    "documentation_url": "https://technet.microsoft.com/en-us/library/cc498727.aspx",
+    "product_name": "Windows",
+    "product_url": "https://www.microsoft.com/en-us/windows",
+    "registry_version": 4,
+    "status": "stable",
+    "maintainer": "GNS3 Team",
+    "maintainer_email": "developers@gns3.net",
+    "usage": "credentials: root/P@ssw0rd",
+    "port_name_format": "eth{0}",
+    "qemu": {
+        "adapter_type": "e1000",
+        "adapters": 1,
+        "ram": 2048,
+        "hda_disk_interface": "sata",
+        "arch": "x86_64",
+        "console_type": "vnc",
+        "boot_priority": "c",
+        "kvm": "require"
+    },
+    "images": [
+        {
+            "filename": "Centos.vmdk",
+            "version": "Centos",
+            "md5sum": "283bb7af43b48eeef1c8293763300d9a",
+			"filesize": 2299068416,
+            "download_url": "https://www.google.com"
+        }
+    ],
+    "versions": [
+        {
+            "name": "Centos",
+            "images": {
+                "hda_disk_image": "Centos.vmdk"
+            }
+        }
+    ]
+}
