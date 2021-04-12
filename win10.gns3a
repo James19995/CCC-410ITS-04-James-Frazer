@@ -1,7 +1,7 @@
 {
-    "name": "Windows Server 2019",
+    "name": "Windows 10",
     "category": "guest",
-    "description": "Microsoft Server VM",
+    "description": "Microsoft Windows 10",
 	"vendor_name": "Microsoft",
     "vendor_url": "http://www.microsoft.com/",
     "documentation_url": "https://technet.microsoft.com/en-us/library/cc498727.aspx",
@@ -9,10 +9,9 @@
     "product_url": "https://www.microsoft.com/en-us/windows",
     "registry_version": 4,
     "status": "stable",
-    "availability": "free-to-try",
-    "maintainer": "GNS3 Team",
-    "maintainer_email": "developers@gns3.net",
-    "usage": "These virtual machines expire after 90 days; i.e. you have to re-create them in your project after this time but you don't have to re-import the appliance.\n\nDefault credentials: IEUser / Passw0rd!",
+    "maintainer": "James Frazer",
+    "maintainer_email": "james.frazer@mymail.champlain.edu",
+    "usage": "credentials: Admin / P@ssw0rd",
     "symbol": "microsoft.svg",
     "port_name_format": "NIC{port1}",
     "qemu": {

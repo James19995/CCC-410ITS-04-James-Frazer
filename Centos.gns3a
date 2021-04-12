@@ -1,16 +1,16 @@
 {
-    "name": "Windows Server 2019",
+    "name": "CentOS",
     "category": "guest",
-    "description": "Microsoft Server VM",
-	"vendor_name": "Microsoft",
-    "vendor_url": "http://www.microsoft.com/",
-    "documentation_url": "https://technet.microsoft.com/en-us/library/cc498727.aspx",
-    "product_name": "Windows",
-    "product_url": "https://www.microsoft.com/en-us/windows",
+    "description": "CentOS",
+	"vendor_name": "Linux",
+    "vendor_url": "https://www.centos.org",
+    "documentation_url": "https://www.centos.org",
+    "product_name": "CentOS",
+    "product_url": "https://www.centos.org",
     "registry_version": 4,
     "status": "stable",
-    "maintainer": "GNS3 Team",
-    "maintainer_email": "developers@gns3.net",
+    "maintainer": "James Frazer",
+    "maintainer_email": "james.frazer@mymail.champlain.edu",
     "usage": "credentials: root/P@ssw0rd",
     "port_name_format": "eth{0}",
     "qemu": {
@@ -29,7 +29,7 @@
             "version": "Centos",
             "md5sum": "283bb7af43b48eeef1c8293763300d9a",
 			"filesize": 2299068416,
-            "download_url": "https://www.google.com"
+            "download_url": "https://www.centos.org"
         }
     ],
     "versions": [
