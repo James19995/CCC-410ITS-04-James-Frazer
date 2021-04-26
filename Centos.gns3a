@@ -20,23 +20,33 @@
         "hda_disk_interface": "sata",
         "arch": "x86_64",
         "console_type": "vnc",
-        "boot_priority": "c",
-        "kvm": "require"
+        "boot_priority": "cd",
+        "kvm": "allow"
     },
     "images": [
         {
-            "filename": "Centos.vmdk",
+            "filename": "CentOS.iso",
             "version": "Centos",
-            "md5sum": "283bb7af43b48eeef1c8293763300d9a",
-			"filesize": 2299068416,
+            "md5sum": "8934d42a86d8589342ac9bdfec82d6b4",
+            "filesize": 1866465280,
             "download_url": "https://www.centos.org"
+        },
+        {
+            "filename": "empty8G.qcow2",
+            "version": "1.0",
+            "md5sum": "f1d2c25b6990f99bd05b433ab603bdb4",
+            "filesize": 197120,
+            "download_url": "https://sourceforge.net/projects/gns-3/files/Empty%20Qemu%20disk/",
+            "direct_download_url": "https://sourceforge.net/projects/gns-3/files/Empty%20Qemu%20disk/empty8G.qcow2/download"
         }
+		
     ],
     "versions": [
         {
             "name": "Centos",
             "images": {
-                "hda_disk_image": "Centos.vmdk"
+                "hda_disk_image": "empty8G.qcow2",
+                "cdrom_image": "CentOS.iso"
             }
         }
     ]
